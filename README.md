@@ -1,2 +1,16 @@
 # PROJET-FINAL-DOCKER-3IW2
-Projet avec docker-compose qui va permettre de lancer deux service nginx, deux services PHP et une base de donnée mysql
+
+## Prérequis
+
+- Docker Desktop ou Docker Engine
+
+## Démarrage
+
+```bash
+docker-compose up --build
+```
+
+## Accès aux sites
+
+- http://localhost:8081 → Serveur 1
+- http://localhost:8082 → Serveur 2
